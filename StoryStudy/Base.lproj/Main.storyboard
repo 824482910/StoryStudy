@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StoryStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="315" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="one" translatesAutoresizingMaskIntoConstraints="NO" id="8c3-kz-slF">
+                                <rect key="frame" x="0.0" y="20" width="317" height="410"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2个控件或以上指的是同时选中的意思。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siK-1Y-rtq">
+                                <rect key="frame" x="8" y="445" width="307" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="siK-1Y-rtq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="0aZ-oe-3EW"/>
+                            <constraint firstItem="8c3-kz-slF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="A3g-2e-VpQ"/>
+                            <constraint firstItem="siK-1Y-rtq" firstAttribute="top" secondItem="8c3-kz-slF" secondAttribute="bottom" constant="15" id="VqC-hl-bGq"/>
+                            <constraint firstItem="8c3-kz-slF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bQy-Of-02K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="siK-1Y-rtq" secondAttribute="trailing" id="zgU-NX-Jr6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="315" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="140.77961019490255"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="q8d-hw-ysv">
+            <objects>
+                <viewController id="nu3-p1-Qhg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wKd-Cs-6DL">
+                        <rect key="frame" x="0.0" y="0.0" width="315" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two" translatesAutoresizingMaskIntoConstraints="NO" id="RUp-Jb-9eI">
+                                <rect key="frame" x="0.0" y="20" width="326" height="295"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RUp-Jb-9eI" firstAttribute="top" secondItem="5CS-Ay-TEZ" secondAttribute="top" id="DWR-E3-Yc8"/>
+                            <constraint firstItem="RUp-Jb-9eI" firstAttribute="leading" secondItem="5CS-Ay-TEZ" secondAttribute="leading" id="kiV-x0-UKQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5CS-Ay-TEZ"/>
+                    </view>
+                    <size key="freeformSize" width="315" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J2H-9R-IHX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="140"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zwO-ap-qBp">
+            <objects>
+                <viewController id="H3k-RF-0t2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zic-He-6Vx">
+                        <rect key="frame" x="0.0" y="0.0" width="719" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="margin" translatesAutoresizingMaskIntoConstraints="NO" id="FN3-NG-pdu">
+                                <rect key="frame" x="-4.5" y="20" width="727" height="832"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选中控件可以通过这里查看控件的约束，一目了然。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tza-7p-6Af">
+                                <rect key="frame" x="8" y="867" width="703" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Tza-7p-6Af" firstAttribute="leading" secondItem="5Pb-L9-5RP" secondAttribute="leading" constant="8" id="PQi-Jn-ZGm"/>
+                            <constraint firstItem="Tza-7p-6Af" firstAttribute="top" secondItem="FN3-NG-pdu" secondAttribute="bottom" constant="15" id="eW5-bg-3xD"/>
+                            <constraint firstItem="FN3-NG-pdu" firstAttribute="top" secondItem="5Pb-L9-5RP" secondAttribute="top" id="jyX-YE-Izl"/>
+                            <constraint firstItem="5Pb-L9-5RP" firstAttribute="trailing" secondItem="Tza-7p-6Af" secondAttribute="trailing" constant="8" id="kQn-e3-eYn"/>
+                            <constraint firstItem="FN3-NG-pdu" firstAttribute="centerX" secondItem="zic-He-6Vx" secondAttribute="centerX" id="oRi-3j-umB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Pb-L9-5RP"/>
+                    </view>
+                    <size key="freeformSize" width="719" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4SM-2Z-5wd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1740" y="140"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BbN-Hk-rBX">
+            <objects>
+                <viewController id="Bnl-ak-Rnm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kgc-Tn-D0K">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="rDL-pQ-yLJ">
+                                <rect key="frame" x="30.5" y="20" width="739" height="324"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rDL-pQ-yLJ" firstAttribute="top" secondItem="tRQ-Xn-97d" secondAttribute="top" id="9cf-bW-ykP"/>
+                            <constraint firstItem="rDL-pQ-yLJ" firstAttribute="centerX" secondItem="Kgc-Tn-D0K" secondAttribute="centerX" id="RmF-AC-LtI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tRQ-Xn-97d"/>
+                    </view>
+                    <size key="freeformSize" width="800" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2A-Bu-pQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2973" y="-10"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="check" width="739" height="324"/>
+        <image name="margin" width="727" height="832"/>
+        <image name="one" width="317" height="410"/>
+        <image name="two" width="326" height="295"/>
+    </resources>
+</document>
